@@ -16,25 +16,26 @@ It will download and install all the required dependencies for the application.
    cd music-festival-api
    ```
 2. **Set data to getTransformedData file**
-   Ensure that the data is arranged in alphabetical format as required by the application.
-
+   Ensure that your data is arranged in alphabetical format as required by the application and placed in the getTransformedData file.
 3. **npm run start:dev**
-   Runs the app in the development mode.
-   Open http://localhost:3001 to view it in the browser.
+   This is runs the app in development mode. You can view it by opening http://localhost:3001 in your browser.
 
 4. **npm run build**
-   It correctly bundles React in production mode and optimizes the build for the best performance.
+   Its bundles the application for production and optimizes it for the best performance.
 
 5. **npm run test**
-   It executes the test suite to ensure the application behaves as expected.
+   This is executes the test suite to ensure the application behaves as expected.
 
 ## env
 
-It is run multiple environment local , production and stage environment
+The application supports multiple environments, including local, production, and staging. Make sure to configure the environment variables as needed for each environment.
 
 ## docker
 
-docker file run image name your_image_name
+1. **docker build -t your_image_name**
+2. **docker run your_image_name**
+
+Replace your_image_name with your desired image name.
 
 ## Logging
 
