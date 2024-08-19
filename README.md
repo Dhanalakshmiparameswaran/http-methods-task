@@ -18,7 +18,7 @@ It will download and install all the required dependencies for the application.
 2. **Set data to getTransformedData file**
    Ensure that your data is arranged in alphabetical format as required by the application and placed in the getTransformedData file.
 3. **npm run start:dev**
-   This is runs the app in development mode. You can view it by opening http://localhost:3001 in your browser.
+   This is runs the app in development mode. You can view it by opening http://localhost:3001/festivals in your browser.
 
 4. **npm run build**
    Its bundles the application for production and optimizes it for the best performance.
